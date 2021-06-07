@@ -1,0 +1,70 @@
+body {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 100%);
+  height: 75.5vh;
+}
+.login {
+  display: grid;
+  grid-template-areas: "h1" "email" "password" "btn";
+  width: 30%;
+  margin: 12% auto;
+  grid-gap: 15%;
+  height: 50%;
+}
+.login h1 {
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  grid-area: h1;
+}
+.login .email {
+  grid-template-areas: "email";
+  height: 100%;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  padding: 1%;
+}
+.login .password {
+  grid-template-areas: "password";
+  height: 100%;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  padding: 1%;
+}
+.login .submit {
+  grid-template-areas: "btn";
+  height: 100%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: rgb(252, 252, 252);
+  border: none;
+  padding: 1%;
+  cursor: pointer;
+}
+.login .submit:hover {
+  background-color: rgb(226, 225, 225);
+  transition: all 0.001s ease-in !important;
+}
+.login .email,
+.login .password,
+.login .submit:focus {
+  outline: none;
+}
+.login .email,
+.login .password,
+.login .submit:active {
+  outline: none;
+}
