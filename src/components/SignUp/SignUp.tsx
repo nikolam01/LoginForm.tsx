@@ -1,7 +1,7 @@
 import React from "react";
-import "./SignUp.css";
+import "./SignUp.scss";
 
-const SignUp = () => {
+let SignUp = () => {
   return <div className="signUpSection"></div>;
 };
 export default SignUp;

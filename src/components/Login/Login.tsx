@@ -1,7 +1,7 @@
 import React from "react";
-import "./Login.css";
+import "./Login.scss";
 
-const Login = () => {
+let Login = () => {
   return (
     <div id="loginSection">
       <form className="loginForm">

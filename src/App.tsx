@@ -1,12 +1,11 @@
 import React from "react";
 import { Router, Route, Switch } from "react-router";
 import { createBrowserHistory } from "history";
-import "./App.css";
 import Login from "./components/Login/Login";
 
 const history = createBrowserHistory();
 
-function App() {
+let App = () => {
   return (
     <Router history={history}>
       <Switch>
@@ -14,6 +13,5 @@ function App() {
       </Switch>
     </Router>
   );
-}
-
+};
 export default App;
